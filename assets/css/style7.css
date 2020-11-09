@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 15px;
+    line-height: 1.6;
+    color: #fff;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container * {
+	transition: 0.6s linear;
+    color: #fff;
+}
+
+/* Intro */
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+
+    background: url("../images/intro2.jpg") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.intro__inner {
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+.intro__title {
+    color: #fff;
+    font-size: 150px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.intro__title:after {
+    content: "";
+    display: block;
+    width: 60px;
+    margin: 60px auto;
+
+    background-color: #fff;
+}
+
+.a {
+  text-decoration: none; 
+    font-size: 14px;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+
+}
+
+a:hover {
+    font-size: 20px;
+}    
+    
