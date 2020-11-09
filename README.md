@@ -1,5 +1,6 @@
 # robin19666.github.io
 Первый проект
+<hr>
 index.php - главная страница сайта
 about.html - информация о создателях божественного сайта
 next.html, next2.html, next3.html - пустые страницы
